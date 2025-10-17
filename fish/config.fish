@@ -3,7 +3,7 @@ if status is-interactive
     fastfetch
 
     # Abbreviations (better than aliases)
-    abbr -a update "sudo dnf update && flatpak update"
+    abbr -a update "sudo pkg update && sudo pkg upgrade"
 
     # Starship prompt
     starship init fish | source
